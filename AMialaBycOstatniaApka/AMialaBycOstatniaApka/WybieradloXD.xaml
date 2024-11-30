@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AMialaBycOstatniaApka.WybieradloXD" xmlns:local="clr-namespace:AMialaBycOstatniaApka" NavigationPage.HasNavigationBar="False">
+    <local:SprawdzianGr2 Title="Gr2 Sprawdzian"></local:SprawdzianGr2>
+    <local:ZKomunikatemDnia Title="Alert dzisiejszy dzien"></local:ZKomunikatemDnia>
+    <local:KonkretnyDzien Title="Wybrano konkretny dzien"></local:KonkretnyDzien>
+</TabbedPage>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AMialaBycOstatniaApka.SprawdzianGr2">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0">
+                <StackLayout Orientation="Horizontal">
+                    <Button HorizontalOptions="StartAndExpand" Text="&lt;" x:Name="Poprzedni" Clicked="Poprzedni_Clicked"></Button>
+                    <Label HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="MiesiacTXT" FontSize="25"></Label>
+                    <Button HorizontalOptions="EndAndExpand" Text="&gt;" x:Name="Nastepny" Clicked="Nastepny_Clicked"></Button>
+                </StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label FontAttributes="Bold" Text="Pn" Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                    <Label FontAttributes="Bold" Text="Wt" Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                    <Label FontAttributes="Bold" Text="Śr" Grid.Column="2" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                    <Label FontAttributes="Bold" Text="Cz" Grid.Column="3" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                    <Label FontAttributes="Bold" Text="Pt" Grid.Column="4" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                    <Label FontAttributes="Bold" Text="Sb" Grid.Column="5" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                    <Label FontAttributes="Bold" TextColor="Red" Text="Nd" Grid.Column="6" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                </Grid>
+                <Grid x:Name="Kalendarz">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </StackLayout>
+            <Grid Grid.Row="1">
+                <Button Margin="10" CornerRadius="20" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" x:Name="GodzinaBTN" WidthRequest="200" HeightRequest="70" FontSize="40" TextColor="DarkBlue" BorderColor="DarkBlue" BackgroundColor="LightGray" BorderWidth="2"></Button>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
