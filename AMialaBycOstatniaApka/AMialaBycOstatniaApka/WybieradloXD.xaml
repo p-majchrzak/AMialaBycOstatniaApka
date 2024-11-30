@@ -5,4 +5,5 @@
     <local:SprawdzianGr2 Title="Gr2 Sprawdzian"></local:SprawdzianGr2>
     <local:ZKomunikatemDnia Title="Alert dzisiejszy dzien"></local:ZKomunikatemDnia>
     <local:KonkretnyDzien Title="Wybrano konkretny dzien"></local:KonkretnyDzien>
+    <local:StrefyCzasowe Title="Strefy czasowe"></local:StrefyCzasowe>
 </TabbedPage>

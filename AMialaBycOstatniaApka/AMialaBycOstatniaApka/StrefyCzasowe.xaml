@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AMialaBycOstatniaApka.StrefyCzasowe">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Europa środkowa GMT+1" FontSize="25" FontAttributes="Bold"></Label>
+            <Label x:Name="GMT1" FontSize="20"></Label>
+            <Label Text="Europa Zachodnia GMT+0" FontSize="25" FontAttributes="Bold"></Label>
+            <Label x:Name="GMT0" FontSize="20"></Label>
+            <Label Text="Moskwa GMT+3" FontSize="25" FontAttributes="Bold"></Label>
+            <Label x:Name="GMT3" FontSize="20"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
